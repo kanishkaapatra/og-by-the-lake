@@ -1,0 +1,27 @@
+{
+  "overview": "A luxury lakeside restaurant website for OG BY THE LAKE in Kolkata — featuring a sophisticated beach club aesthetic with sand beige, deep navy, and seafoam green palette. Showcases the full menu, venue gallery, and a reservation booking form.",
+  "features": [
+    "Transparent sticky header with smooth scroll navigation",
+    "Hero section with auto-playing parallax image carousel and lakeside atmosphere",
+    "Three-column experience section (Lakeside Serenity, Global Flavors, Sunset Rhythms)",
+    "Tabbed menu preview with hover zoom effects",
+    "Full menu page with 40+ dishes across 5 categories",
+    "Gallery page with venue photos",
+    "Reservation form with backend persistence and on-screen confirmation",
+    "Location section with embedded Google Map and amenity badges",
+    "Swiggy and Justdial booking links",
+    "Fully responsive mobile-first design"
+  ],
+  "category": "restaurant-hospitality",
+  "tags": [
+    "restaurant",
+    "lakeside",
+    "luxury",
+    "kolkata",
+    "menu",
+    "reservations",
+    "gallery",
+    "beach-club"
+  ],
+  "last_updated": "2026-04-14T16:59:39.119Z"
+}

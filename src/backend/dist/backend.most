@@ -1,0 +1,25 @@
+// Version: 1.0.0
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type ReservationId__570686236 = Nat;
+type Reservation__811982310 =
+  {
+    createdAt : Int;
+    date : Text;
+    email : Text;
+    id : ReservationId__570686236;
+    name : Text;
+    partySize : Nat;
+    phone : Text;
+    specialRequests : Text;
+    time : Text
+  };
+actor {
+  stable var nextReservationId : Nat;
+  stable reservations :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Reservation__811982310]];
+      var elementIndex : Nat__490723111
+    }
+};

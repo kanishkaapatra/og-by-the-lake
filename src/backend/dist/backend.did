@@ -1,0 +1,32 @@
+type SubmitResult = 
+ variant {
+   err: text;
+   ok: ReservationId;
+ };
+type ReservationInput = 
+ record {
+   date: text;
+   email: text;
+   name: text;
+   partySize: nat;
+   phone: text;
+   specialRequests: text;
+   time: text;
+ };
+type ReservationId = nat;
+type Reservation = 
+ record {
+   createdAt: int;
+   date: text;
+   email: text;
+   id: ReservationId;
+   name: text;
+   partySize: nat;
+   phone: text;
+   specialRequests: text;
+   time: text;
+ };
+service : {
+  getAllReservations: () -> (vec Reservation) query;
+  submitReservation: (input: ReservationInput) -> (SubmitResult);
+}
